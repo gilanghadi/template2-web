@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Viga&display=swap');
+
+body {
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 23, 23);
+    overflow-x: hidden;
+}
+
+/* jumbtron */
+.jumbotron img {
+    width: 400px;
+    margin: 20%;
+}
+
+.jumbotron svg {
+    margin-top: -70px;
+}
+
+.jumbo-text {
+    margin: 13% 0 0 0;
+    color: #fff;
+
+}
+
+.jumbo-text a {
+    width: 25%;
+    padding: 10px;
+}
+
+/* akhir jumbotron */
+/* ucapan */
+.ucapan {
+    background-color: #fff;
+    color: #fff;
+}
+
+.layanan {
+    height: 150px;
+    background-color: rgb(240, 23, 23);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, .5);
+    padding: 13px;
+    margin-bottom: 100px;
+    font-weight: 300;
+}
+
+color: rgb(143, 143, 143);
+
+<link rel="preconnect"href="https://fonts.googleapis.com"><link rel="preconnect"href="https://fonts.gstatic.com"crossorigin><link href="https://fonts.googleapis.com/css2?family=Viga&display=swap"rel="stylesheet"><link rel="preconnect"href="https://fonts.googleapis.com"><link rel="preconnect"href="https://fonts.gstatic.com"crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"rel="stylesheet">@font-face {
+    font-family: 'Fjalla One';
+    src: url('../fonts/Fjalla_One/FjallaOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kaushan Script';
+    src: url('../fonts/KaushanScript-Regular.otf') format('truetype');
+}
+
+< !-- navbar --><nav class="navbar navbar-expand-lg navbar-light"><div class="container"><a class="navbar-brand"href="#">karshanda</a><button class="navbar-toggler"type="button"data-bs-toggle="collapse"data-bs-target="#navbarNavAltMarkup"
+
+aria-controls="navbarNavAltMarkup"aria-expanded="false"aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse"id="navbarNavAltMarkup"><div class="navbar-nav"><a class="nav-link"aria-current="page"href="#">Home</a><a class="nav-link"href="#">Selling</a><a class="nav-link"href="#">Pemilik</a></div><div class="ms-auto btn-navbar"><a href="../login.html"class="btn pencet">Logout</a></div></div></div></nav>< !-- akhir dari navbar -->.layanan p {
+    margin-top: 10%;
+}
+
+/* akhir dari ucapan */
+/* card utility */
+.carde {
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 13em;
+    color: #3A3850;
+    position: relative;
+}
+
+.bingkai {
+    background-color: rgb(240, 23, 23);
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.bingkai-beda {
+    background-color: rgb(240, 23, 23);
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: -76px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 2.7em;
+}
+
+.bingkai a {
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+.bingkai-beda a {
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+.bingkai-beda h2 {
+    margin: 13px;
+}
+
+.bingkai-beda img {
+    width: 90%;
+    padding: 20px;
+    margin-top: -21px;
+}
+
+.bingkai-beda p {
+    margin: 10px;
+}
+
+.bingkai img {
+    padding: 20px;
+    width: 90%;
+}
+
+/* akhir dari card ultility */
+/* utilty */
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-weight: 300;
+}
+
+/* akhir dari utility */
+/* card 2 */
+.card-dua {
+    background-color: rgb(240, 23, 23);
+    color: #3A3850;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.text-bingkai {
+    margin-bottom: 3em;
+    color: #fff;
+}
+
+.text-bingkai h3 {
+    font-size: 40px;
+}
+
+.bingkai-dua {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bingkai-dua img {
+    padding: 20px;
+    width: 90%;
+}
+
+.bingkai-dua a {
+    width: 50%;
+    margin-bottom: 2em;
+    background-color: rgb(240, 23, 23);
+}
+
+/* akhir dari card 2 */
+/* promosi */
+.promosi {
+    background-color: #fff;
+    margin-top: 7em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, .5);
+    margin: 10%;
+    padding: 3em;
+    color: #3A3850;
+}
+
+.promosi a {
+    width: 30%;
+    background-color: rgb(240, 23, 23);
+    margin-top: 3em;
+    padding: 10px;
+}
+
+.promosi img {
+    width: 60%;
+    margin-left: 8em;
+}
+
+/* akhir dari promosi */
+/* pay */
+.pay {
+    margin-top: 9em;
+    background-color: #fff;
+    text-align: center;
+    color: #3A3850;
+}
+
+.metode-pembayaran {
+    padding-top: 4em;
+    padding-bottom: 9em;
+}
+
+.pay svg {
+    margin: 10px;
+    margin-top: 1em;
+}
+
+/* akhir pay */
+.footerr {
+    background-color: #fff;
+    color: #a6a6b1;
+}
+
+
+
+/* responsive */
+/* mobile */
+@media (min-width: 576px) {
+    .jumbo-text {
+        text-align: center;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+
+    .jumbo-text h3 h5 {
+        padding: 7px;
+    }
+
+    .jumbo-text a {
+        margin-top: 20px;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px) {
+    .jumbo-text {
+        text-align: center;
+        margin-left: 30px;
+    }
+
+
+    .jumbotron img {
+        text-align: center;
+    }
+
+}
+
+/* pc */
+@media (min-width: 992px) {
+    .jumbo-text {
+        text-align: left;
+        margin: 13% 0 0 0;
+    }
+}
